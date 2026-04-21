@@ -1,4 +1,4 @@
-# CDF PRIME 4Sight
+# 4Sight
 
 ### About
 4Sight produces forecasts, plots, and CLI which consists of:
