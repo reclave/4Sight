@@ -1,0 +1,28 @@
+# For local, please also run:
+#     pip install pyyaml
+#     pip install streamlit
+
+# Refer to README for client yaml file instructions
+
+# Core packages:
+pandas==2.1.4
+numpy==1.26.4
+cognite-sdk==7.62.8
+ipykernel==6.29.4
+scikit-learn==1.5.2
+prophet==1.1.6
+xgboost==2.0.3
+optuna==3.6.1
+matplotlib==3.8.4
+plotly==5.24.1
+tensorflow==2.16.2
+
+# Azure packages:
+azure-functions>=1.16.0
+azure-identity>=1.12.0
+azure-keyvault-keys>=4.7.0
+azure-storage-blob>=12.19.0
+cryptography>=3.4.7
+
+# CDF Streamlit incompatible: pandas, matplotlib, scikit-learn, prophet, ipykernel
+# CDF Streamlit compatible: plotly, numpy
