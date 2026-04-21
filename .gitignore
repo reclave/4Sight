@@ -73,3 +73,7 @@ cache/
 
 output/*
 !output/.gitkeep
+
+# Local editor and macOS metadata
+.vscode/
+.DS_Store
