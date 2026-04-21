@@ -337,8 +337,8 @@ def search_ts_for_selection(query="", limit=None, field_filter=None):
         # Apply field filter if specified
         if field_filter:
             field_prefix_map = {
-                "Field A": "KASAWARI",
-                "Field B": "ANGSI"
+                "Field A": "Field_A",
+                "Field B": "Field_B"
             }
             prefix = field_prefix_map.get(field_filter, "")
             if prefix:
